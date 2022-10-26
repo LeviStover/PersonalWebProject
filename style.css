@@ -1,3 +1,12 @@
-body{
-    background-color: green;
+img{
+    width:2000px;
+    height: 1000px;
 }
+img:hover{
+    transition-duration: 5s;
+    filter:brightness(40)
+}
+body{
+    background-color: blanchedalmond;
+}
+
