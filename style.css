@@ -1,12 +1,8 @@
-img{
-    width:2000px;
-    height: 1000px;
+body:active{
+    background-image: url('images/hank1.jpg');
+    background-size: cover;
 }
-img:hover{
-    transition-duration: 5s;
-    filter:brightness(40)
+.d{
+    text-align:center;
+    margin: 500px;
 }
-body{
-    background-color: blanchedalmond;
-}
-
