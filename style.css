@@ -5,4 +5,11 @@ body:active{
 .d{
     text-align:center;
     margin: 500px;
+
+}
+button:active{
+    visibility: hidden;
+}
+button:hover{
+    background-color: magenta;
 }
