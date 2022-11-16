@@ -1,15 +1,17 @@
-body:active{
+body{
     background-image: url('images/hank1.jpg');
     background-size: cover;
 }
-.d{
-    text-align:center;
-    margin: 500px;
-
+.flex-container1{
+    display:block;
 }
-button:active{
-    visibility: hidden;
+.flex-container2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
-button:hover{
-    background-color: magenta;
+.flex-item{
+    padding:10px;
+    border:1px solid white;
+    margin:5px;
 }
